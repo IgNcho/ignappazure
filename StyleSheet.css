@@ -1,0 +1,143 @@
+﻿body {
+}
+/*ul, li, h1, h2, h3, p, aside {
+  font-family: 'Californian FB';
+}*/
+header {
+  background-image: url('http://localhost:54490/Images/nets.jpg') ;
+  background-color: black;
+  text-align:center;
+  height: 271px;
+  width: 1333px;
+}
+
+#aside {  height: 256px;
+  width: 332px;
+}
+
+nav {
+  width: 1200px;
+ color: black;
+  padding-top: 0; /* Reset the top-padding. The first menu item (home) already adds some padding to its top to create room between the MenuWrapper and the first menu item */
+  background-color: none;
+  margin-left: 0px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration-color:black;
+  text-align:center;
+  margin-top: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+h1 {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #5B3800;
+}
+
+h3 {
+color: black;
+text-decoration: none;
+}
+
+p {
+  margin-left: 60px;
+  color: black;
+text-decoration: none;
+}
+
+aside {
+ border-style: none;
+  margin-top:10px; 
+  margin-left:80px;
+  padding:5px; 
+  padding-left:0px;
+  text-align:center; 
+  font-style:italic; 
+  float:left; 
+  width:172px;
+  text-decoration: underline;
+
+}
+
+section {
+  padding:5px; 
+  margin-top:5px;
+  margin-left: 10px; 
+  float: left;
+  width:1000px;
+  height:auto;
+}
+
+footer {
+  clear: both;
+  padding: 5px;
+  padding-top:50px;
+  text-align: left;
+  font-weight: bold;
+  margin-top:10px;
+  color:black;
+}
+
+img {
+  border-style: none;
+  border-color: inherit;
+  border-width: medium;
+  text-align: center;
+  width: 682px;
+  height: 246px;
+}
+
+article {
+  padding: 5px;
+  border-top: dashed 3px black;
+  margin-top: 5px;
+  float: left;
+  width: 1000px;
+  color: black;
+  height: 410px;
+}
+
+td {
+color: black;
+  background-color: #FFFFFF;
+}
+
+.ErrorMessage {
+color: red;}
+
+ul {
+    list-style-type: none;
+    margin: 200px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 32px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkred;
+}
+
